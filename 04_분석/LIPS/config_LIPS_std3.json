@@ -1,0 +1,398 @@
+{
+ "tag": "LIPS",
+ "outcome_column": "ext__lips_cases",
+ "outcome_label_en": "Examinees classified as 'suspected dyslipidaemia' at the first-stage National General Health Screening (not already under treatment; NHIS health screening statistics DT_35007_N103, annual)",
+ "disease_ko": "검진 이상지질혈증 의심(1차 판정 질환의심, 유질환자 제외)",
+ "disease_en": "Screen-detected suspected dyslipidaemia (untreated, newly flagged at screening)",
+ "forced": [
+  "urban_population_share",
+  "physicians_per_1000",
+  "sex_ratio",
+  "fiscal_independence",
+  "pop80_share"
+ ],
+ "candidates": [
+  "ext__walking_rate",
+  "moderate_pa_rate",
+  "ext__public_sport_fac_per100k",
+  "ext__village_sport_fac_per100k",
+  "obesity_rate",
+  "ext__high_risk_drinking",
+  "ext__smoking_rate",
+  "ext__screening_uptake",
+  "im_specialists_per_100k",
+  "basic_livelihood_rate"
+ ],
+ "negative_controls": [
+  "hit_and_run_rate",
+  "traffic_culture_index",
+  "fires_per_10000"
+ ],
+ "sets": {
+  "S1_narrative_full": [
+   "ext__walking_rate",
+   "moderate_pa_rate",
+   "ext__public_sport_fac_per100k",
+   "ext__village_sport_fac_per100k",
+   "obesity_rate",
+   "ext__high_risk_drinking",
+   "ext__smoking_rate",
+   "ext__screening_uptake",
+   "im_specialists_per_100k",
+   "basic_livelihood_rate"
+  ],
+  "S2_core": [
+   "ext__walking_rate",
+   "ext__public_sport_fac_per100k",
+   "obesity_rate",
+   "ext__screening_uptake",
+   "im_specialists_per_100k",
+   "basic_livelihood_rate"
+  ],
+  "S3_physical_activity": [
+   "ext__walking_rate",
+   "moderate_pa_rate",
+   "ext__public_sport_fac_per100k",
+   "ext__village_sport_fac_per100k"
+  ],
+  "S4_lipid_risk_behaviour": [
+   "obesity_rate",
+   "ext__high_risk_drinking",
+   "ext__smoking_rate"
+  ],
+  "S5_detection_care": [
+   "ext__screening_uptake",
+   "im_specialists_per_100k",
+   "basic_livelihood_rate"
+  ],
+  "S6_risk_detection": [
+   "obesity_rate",
+   "ext__high_risk_drinking",
+   "ext__smoking_rate",
+   "ext__screening_uptake",
+   "im_specialists_per_100k",
+   "basic_livelihood_rate"
+  ]
+ },
+ "sensitivity_sets": [],
+ "sensitivity_only_vars": [
+  "tertiary_educated_share",
+  "ext__unmet_need_rate",
+  "ext__living_alone_elderly"
+ ],
+ "offset_column": "ext__lips_examinees",
+ "offset_sensitivity": null,
+ "offset_fallback": null,
+ "exclude_years": [],
+ "vars": {
+  "urban_population_share": {
+   "key": "urban_population_share",
+   "column": "ext__urban_population_share",
+   "transform": "none",
+   "label_en": "Urban-zone population share (%)",
+   "label_ko": "도시지역 인구 비율",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "ext__urban_population_share"
+  },
+  "physicians_per_1000": {
+   "key": "physicians_per_1000",
+   "column": "ext__physicians_per_1000",
+   "transform": "none",
+   "label_en": "Physicians per 1000",
+   "label_ko": "인구 천명당 의사 수",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "ext__physicians_per_1000"
+  },
+  "sex_ratio": {
+   "key": "sex_ratio",
+   "column": "ext__sex_ratio",
+   "transform": "none",
+   "label_en": "Sex ratio (men per 100 women)",
+   "label_ko": "남녀성비",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "ext__sex_ratio"
+  },
+  "fiscal_independence": {
+   "key": "fiscal_independence",
+   "column": "ext__fiscal_independence",
+   "transform": "none",
+   "label_en": "Fiscal independence (%)",
+   "label_ko": "재정자주도",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "ext__fiscal_independence"
+  },
+  "pop80_share": {
+   "key": "pop80_share",
+   "column": "ext__pop80_share",
+   "transform": "none",
+   "label_en": "Population aged 80+ share (%)",
+   "label_ko": "80세 이상 인구 비율",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "ext__pop80_share"
+  },
+  "ext__walking_rate": {
+   "key": "ext__walking_rate",
+   "column": "ext__walking_rate",
+   "transform": "none",
+   "label_en": "ext__walking_rate",
+   "label_ko": "ext__walking_rate",
+   "expected_direction": "-",
+   "role": "candidate",
+   "raw_key": "ext__walking_rate"
+  },
+  "moderate_pa_rate": {
+   "key": "moderate_pa_rate",
+   "column": "ext__moderate_pa_rate",
+   "transform": "none",
+   "label_en": "Moderate-or-higher physical activity rate (SR %)",
+   "label_ko": "중강도 이상 신체활동 실천율",
+   "expected_direction": "-",
+   "role": "candidate",
+   "raw_key": "ext__moderate_pa_rate"
+  },
+  "ext__public_sport_fac_per100k": {
+   "key": "ext__public_sport_fac_per100k",
+   "column": "ext__public_sport_fac_per100k",
+   "transform": "none",
+   "label_en": "ext__public_sport_fac_per100k",
+   "label_ko": "ext__public_sport_fac_per100k",
+   "expected_direction": "-",
+   "role": "candidate",
+   "raw_key": "ext__public_sport_fac_per100k"
+  },
+  "ext__village_sport_fac_per100k": {
+   "key": "ext__village_sport_fac_per100k",
+   "column": "ext__village_sport_fac_per100k",
+   "transform": "none",
+   "label_en": "ext__village_sport_fac_per100k",
+   "label_ko": "ext__village_sport_fac_per100k",
+   "expected_direction": "-",
+   "role": "candidate",
+   "raw_key": "ext__village_sport_fac_per100k"
+  },
+  "obesity_rate": {
+   "key": "obesity_rate",
+   "column": "kchs__DT_H_OBE_OBE__SR",
+   "transform": "none",
+   "label_en": "Obesity rate (self-reported SR %)",
+   "label_ko": "비만율(자가보고)",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_OBE_OBE__SR"
+  },
+  "ext__high_risk_drinking": {
+   "key": "ext__high_risk_drinking",
+   "column": "ext__high_risk_drinking",
+   "transform": "none",
+   "label_en": "ext__high_risk_drinking",
+   "label_ko": "ext__high_risk_drinking",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "ext__high_risk_drinking"
+  },
+  "ext__smoking_rate": {
+   "key": "ext__smoking_rate",
+   "column": "ext__smoking_rate",
+   "transform": "none",
+   "label_en": "ext__smoking_rate",
+   "label_ko": "ext__smoking_rate",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "ext__smoking_rate"
+  },
+  "ext__screening_uptake": {
+   "key": "ext__screening_uptake",
+   "column": "ext__screening_uptake",
+   "transform": "none",
+   "label_en": "ext__screening_uptake",
+   "label_ko": "ext__screening_uptake",
+   "expected_direction": "-",
+   "role": "candidate",
+   "raw_key": "ext__screening_uptake"
+  },
+  "im_specialists_per_100k": {
+   "key": "im_specialists_per_100k",
+   "column": "ext__im_specialists_per100k",
+   "transform": "none",
+   "label_en": "Internal-medicine specialists per 100k",
+   "label_ko": "내과 전문의 수(10만 명당)",
+   "expected_direction": "-",
+   "role": "candidate",
+   "raw_key": "ext__im_specialists_per100k"
+  },
+  "basic_livelihood_rate": {
+   "key": "basic_livelihood_rate",
+   "column": "ext__basic_livelihood_rate",
+   "transform": "none",
+   "label_en": "Basic-livelihood security recipient rate (%)",
+   "label_ko": "국민기초생활보장 수급자 비율",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "ext__basic_livelihood_rate"
+  },
+  "tertiary_educated_share": {
+   "key": "tertiary_educated_share",
+   "column": "ext__tertiary_educated_share",
+   "transform": "none",
+   "label_en": "Tertiary-educated share (%)",
+   "label_ko": "고등교육 이수 비율",
+   "expected_direction": "",
+   "role": "candidate_sensitivity",
+   "raw_key": "ext__tertiary_educated_share"
+  },
+  "ext__unmet_need_rate": {
+   "key": "ext__unmet_need_rate",
+   "column": "ext__unmet_need_rate",
+   "transform": "none",
+   "label_en": "ext__unmet_need_rate",
+   "label_ko": "ext__unmet_need_rate",
+   "expected_direction": "",
+   "role": "candidate_sensitivity",
+   "raw_key": "ext__unmet_need_rate"
+  },
+  "ext__living_alone_elderly": {
+   "key": "ext__living_alone_elderly",
+   "column": "ext__living_alone_elderly",
+   "transform": "none",
+   "label_en": "ext__living_alone_elderly",
+   "label_ko": "ext__living_alone_elderly",
+   "expected_direction": "",
+   "role": "candidate_sensitivity",
+   "raw_key": "ext__living_alone_elderly"
+  },
+  "hit_and_run_rate": {
+   "key": "hit_and_run_rate",
+   "column": "ext__hit_and_run_rate",
+   "transform": "none",
+   "label_en": "Hit-and-run traffic accident rate (%)",
+   "label_ko": "뺑소니 교통사고율",
+   "expected_direction": "",
+   "role": "negative",
+   "raw_key": "ext__hit_and_run_rate"
+  },
+  "traffic_culture_index": {
+   "key": "traffic_culture_index",
+   "column": "ext__traffic_culture_index",
+   "transform": "none",
+   "label_en": "Traffic culture index",
+   "label_ko": "교통문화지수",
+   "expected_direction": "",
+   "role": "negative",
+   "raw_key": "ext__traffic_culture_index"
+  },
+  "fires_per_10000": {
+   "key": "fires_per_10000",
+   "column": "ext__fires_per_10000",
+   "transform": "none",
+   "label_en": "Fires per 10 000 residents",
+   "label_ko": "주민 만명당 화재 발생 건수",
+   "expected_direction": "",
+   "role": "negative",
+   "raw_key": "ext__fires_per_10000"
+  }
+ },
+ "rules": {
+  "waic_tol": 4.0,
+  "cpo_fail_frac": 0.05,
+  "main_set": "S1_narrative_full",
+  "vif_threshold": 10.0,
+  "vif_action": "report",
+  "multiverse_n": 200,
+  "windows": {
+   "W1_2018-19": [
+    2018,
+    2019
+   ],
+   "W2_2020-24": [
+    2020,
+    2024
+   ]
+  },
+  "covid_post_from": 2020,
+  "years": [
+   2018,
+   2024
+  ],
+  "raw_rules": {
+   "likelihood": "forced-only 모형 WAIC 낮은 쪽(Poisson/NB)",
+   "set_choice": "WAIC 최소, 4 이내면 변수 적은 세트",
+   "credible": "95% CrI 1 제외",
+   "vif_drop": 10,
+   "multiverse_specs": 200,
+   "main_model_note": "주모형 = S1_narrative_full(가설 10 + 강제통제 5). 세트를 다시 바꾸지 않음. VIF>10 유지·보고.",
+   "years": [
+    2018,
+    2024
+   ],
+   "windows": {
+    "W1_2018-19": [
+     2018,
+     2019
+    ],
+    "W2_2020-24": [
+     2020,
+     2024
+    ]
+   },
+   "covid_post_from": 2020,
+   "windows_note": "7년 패널(2018-24): 시간 효과 rw1 7점, 창 = 코로나 전(2018-19)·후(2020-24) 2개(결과 전 고정). 2018 판정 정의 단절을 가로지르지 않는다."
+  },
+  "main_model_note": "Principal model = S1_narrative_full (10 district characteristics + 5 forced controls). VIF>10 retained and reported."
+ },
+ "suffix": "_std3",
+ "offset_E_column": "E_std",
+ "offset_E_file": "LIPS_Estd3s.csv",
+ "offset_E_sensitivity_column": null,
+ "offset_E_label": "sex-and-age-standardised expected suspected-dyslipidaemia cases, 2 sexes x 15 age bands (<=19, 20-24 to 80-84, 85+) (national screening rates DT_35007_N104/N099; district examinee age structure approximated from resident population x national uptake, sex totals observed), 2018-2024",
+ "sets_after_vif": {
+  "S1_narrative_full": [
+   "ext__walking_rate",
+   "moderate_pa_rate",
+   "ext__public_sport_fac_per100k",
+   "ext__village_sport_fac_per100k",
+   "obesity_rate",
+   "ext__high_risk_drinking",
+   "ext__smoking_rate",
+   "ext__screening_uptake",
+   "im_specialists_per_100k",
+   "basic_livelihood_rate"
+  ],
+  "S2_core": [
+   "ext__walking_rate",
+   "ext__public_sport_fac_per100k",
+   "obesity_rate",
+   "ext__screening_uptake",
+   "im_specialists_per_100k",
+   "basic_livelihood_rate"
+  ],
+  "S3_physical_activity": [
+   "ext__walking_rate",
+   "moderate_pa_rate",
+   "ext__public_sport_fac_per100k",
+   "ext__village_sport_fac_per100k"
+  ],
+  "S4_lipid_risk_behaviour": [
+   "obesity_rate",
+   "ext__high_risk_drinking",
+   "ext__smoking_rate"
+  ],
+  "S5_detection_care": [
+   "ext__screening_uptake",
+   "im_specialists_per_100k",
+   "basic_livelihood_rate"
+  ],
+  "S6_risk_detection": [
+   "obesity_rate",
+   "ext__high_risk_drinking",
+   "ext__smoking_rate",
+   "ext__screening_uptake",
+   "im_specialists_per_100k",
+   "basic_livelihood_rate"
+  ]
+ }
+}

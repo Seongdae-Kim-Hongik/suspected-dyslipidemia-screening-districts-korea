@@ -1,0 +1,671 @@
+{
+ "lee2014serum": {
+  "type": "journal",
+  "authors": [
+   "Lee YH",
+   "Lee SG",
+   "Lee MH",
+   "Kim JH",
+   "Lee BW",
+   "Kang ES",
+   "Lee HC",
+   "Cha BS"
+  ],
+  "title": "Serum cholesterol concentration and prevalence, awareness, treatment, and control of high low-density lipoprotein cholesterol in the Korea National Health and Nutrition Examination Surveys 2008-2010: Beyond the Tip of the Iceberg",
+  "journal": "J Am Heart Assoc",
+  "year": 2014,
+  "vol": "3",
+  "issue": "1",
+  "pages": "e000650",
+  "doi": "10.1161/JAHA.113.000650",
+  "pmid": "24572249"
+ },
+ "han2021regional2": {
+  "type": "journal",
+  "authors": [
+   "Han KT",
+   "Kim S"
+  ],
+  "title": "Regional Prevalence of Dyslipidemia, Healthcare Utilization, and Cardiovascular Disease Risk in South Korean: A Retrospective Cohort Study",
+  "journal": "Int J Environ Res Public Health",
+  "year": 2021,
+  "vol": "18",
+  "issue": "2",
+  "pages": "538",
+  "doi": "10.3390/ijerph18020538",
+  "pmid": "33440700"
+ },
+ "ahn2015treatment": {
+  "type": "journal",
+  "authors": [
+   "Ahn E",
+   "Shin DW",
+   "Yang HK",
+   "Yun JM",
+   "Chun SH",
+   "Suh B",
+   "Lee H",
+   "Son KY",
+   "Cho B"
+  ],
+  "title": "Treatment Gap in the National Health-screening Program in Korea: Claim-based Follow-up of Statin Use for Sustained Hypercholesterolemia",
+  "journal": "J Korean Med Sci",
+  "year": 2015,
+  "vol": "30",
+  "issue": "9",
+  "pages": "1266-72",
+  "doi": "10.3346/jkms.2015.30.9.1266",
+  "pmid": "26339166"
+ },
+ "suh2017impact": {
+  "type": "journal",
+  "authors": [
+   "Suh Y",
+   "Lee CJ",
+   "Cho DK",
+   "Cho YH",
+   "Shin DH",
+   "Ahn CM",
+   "Kim JS",
+   "Kim BK",
+   "Ko YG",
+   "Choi D",
+   "Jang Y",
+   "Hong MK"
+  ],
+  "title": "Impact of National Health Checkup Service on Hard Atherosclerotic Cardiovascular Disease Events and All-Cause Mortality in the General Population",
+  "journal": "Am J Cardiol",
+  "year": 2017,
+  "vol": "120",
+  "issue": "10",
+  "pages": "1804-1812",
+  "doi": "10.1016/j.amjcard.2017.07.093",
+  "pmid": "28886857"
+ },
+ "cakmak2024association": {
+  "type": "journal",
+  "authors": [
+   "Cakmak S",
+   "Lukina A",
+   "Dales R"
+  ],
+  "title": "The association between neighbourhood walkability and blood lipids: a Canadian population study",
+  "journal": "Lipids Health Dis",
+  "year": 2024,
+  "vol": "23",
+  "issue": "1",
+  "pages": "298",
+  "doi": "10.1186/s12944-024-02267-x",
+  "pmid": "39267049"
+ },
+ "lee2021objectively": {
+  "type": "journal",
+  "authors": [
+   "Lee EY",
+   "Choi J",
+   "Lee S",
+   "Choi BY"
+  ],
+  "title": "Objectively Measured Built Environments and Cardiovascular Diseases in Middle-Aged and Older Korean Adults",
+  "journal": "Int J Environ Res Public Health",
+  "year": 2021,
+  "vol": "18",
+  "issue": "4",
+  "pages": "1861",
+  "doi": "10.3390/ijerph18041861",
+  "pmid": "33672927"
+ },
+ "rimm1999moderate": {
+  "type": "journal",
+  "authors": [
+   "Rimm EB",
+   "Williams P",
+   "Fosher K",
+   "Criqui M",
+   "Stampfer MJ"
+  ],
+  "title": "Moderate alcohol intake and lower risk of coronary heart disease: meta-analysis of effects on lipids and haemostatic factors",
+  "journal": "BMJ",
+  "year": 1999,
+  "vol": "319",
+  "issue": "7224",
+  "pages": "1523-8",
+  "doi": "10.1136/bmj.319.7224.1523",
+  "pmid": "10591709"
+ },
+ "craig1989cigarette": {
+  "type": "journal",
+  "authors": [
+   "Craig WY",
+   "Palomaki GE",
+   "Haddow JE"
+  ],
+  "title": "Cigarette smoking and serum lipid and lipoprotein concentrations: an analysis of published data",
+  "journal": "BMJ",
+  "year": 1989,
+  "vol": "298",
+  "issue": "6676",
+  "pages": "784-8",
+  "doi": "10.1136/bmj.298.6676.784",
+  "pmid": "2496857"
+ },
+ "vekic2019obesity": {
+  "type": "journal",
+  "authors": [
+   "Vekic J",
+   "Zeljkovic A",
+   "Stefanovic A",
+   "Jelic-Ivanovic Z",
+   "Spasojevic-Kalimanovska V"
+  ],
+  "title": "Obesity and dyslipidemia",
+  "journal": "Metabolism",
+  "year": 2019,
+  "vol": "92",
+  "issue": "",
+  "pages": "71-81",
+  "doi": "10.1016/j.metabol.2018.11.005",
+  "pmid": "30447223"
+ },
+ "ncdrisc2020repositioning": {
+  "type": "journal",
+  "authors": [
+   "NCD Risk Factor Collaboration (NCD-RisC)"
+  ],
+  "title": "Repositioning of the global epicentre of non-optimal cholesterol",
+  "journal": "Nature",
+  "year": 2020,
+  "vol": "582",
+  "issue": "7810",
+  "pages": "73-77",
+  "doi": "10.1038/s41586-020-2338-1",
+  "pmid": "32494083"
+ },
+ "ctt2010efficacy": {
+  "type": "journal",
+  "authors": [
+   "Baigent C",
+   "Blackwell L",
+   "Emberson J",
+   "Holland LE",
+   "Reith C",
+   "Bhala N",
+   "Peto R",
+   "Barnes EH",
+   "Keech A",
+   "Simes J",
+   "Collins R"
+  ],
+  "title": "Efficacy and safety of more intensive lowering of LDL cholesterol: a meta-analysis of data from 170,000 participants in 26 randomised trials",
+  "journal": "Lancet",
+  "year": 2010,
+  "vol": "376",
+  "issue": "9753",
+  "pages": "1670-1681",
+  "doi": "10.1016/S0140-6736(10)61350-5",
+  "pmid": "21067804"
+ },
+ "kwon2025dyslipidemia": {
+  "type": "journal",
+  "authors": [
+   "Kwon O",
+   "Lee SY",
+   "Kim B",
+   "Han K",
+   "Ahn J"
+  ],
+  "title": "Dyslipidemia Fact Sheet in South Korea, 2024",
+  "journal": "J Lipid Atheroscler",
+  "year": 2025,
+  "vol": "14",
+  "issue": "3",
+  "pages": "298-311",
+  "doi": "10.12997/jla.2025.14.3.298",
+  "pmid": "41048599"
+ },
+ "lee2025national": {
+  "type": "journal",
+  "authors": [
+   "Lee H",
+   "Kim S",
+   "Son Y",
+   "Kim S",
+   "Kim HJ",
+   "Jo H",
+   "Park J",
+   "Lee K",
+   "Lee H",
+   "Kang J",
+   "Woo S",
+   "Kim S",
+   "Rhee SY",
+   "Hwang J",
+   "Smith L",
+   "Yon DK"
+  ],
+  "title": "National trends in dyslipidemia prevalence, awareness, treatment, and control in South Korea from 2005 to 2022",
+  "journal": "Sci Rep",
+  "year": 2025,
+  "vol": "15",
+  "issue": "1",
+  "pages": "16148",
+  "doi": "10.1038/s41598-025-00354-2",
+  "pmid": "40341225"
+ },
+ "rhee2019guidelines": {
+  "type": "journal",
+  "authors": [
+   "Rhee EJ",
+   "Kim HC",
+   "Kim JH",
+   "Lee EY",
+   "Kim BJ",
+   "Kim EM",
+   "Song Y",
+   "Lim JH"
+  ],
+  "title": "2018 Guidelines for the Management of Dyslipidemia in Korea",
+  "journal": "J Lipid Atheroscler",
+  "year": 2019,
+  "vol": "8",
+  "issue": "2",
+  "pages": "78-131",
+  "doi": "10.12997/jla.2019.8.2.78",
+  "pmid": "32821702"
+ },
+ "cheolseong2017data": {
+  "type": "journal",
+  "authors": [
+   "Seong SC",
+   "Kim YY",
+   "Khang YH",
+   "Park JH",
+   "Kang HJ",
+   "Lee H",
+   "Do CH",
+   "Song JS",
+   "Bang JH",
+   "Ha S",
+   "Lee EJ",
+   "Shin SA"
+  ],
+  "title": "Data resource profile: the National Health Information Database of the National Health Insurance Service in South Korea",
+  "journal": "Int J Epidemiol",
+  "year": 2017,
+  "vol": "46",
+  "issue": "3",
+  "pages": "799-800",
+  "doi": "10.1093/ije/dyw253",
+  "pmid": "27794523"
+ },
+ "han2021regional": {
+  "type": "journal",
+  "authors": [
+   "Han KT",
+   "Choi DW",
+   "Kim S"
+  ],
+  "title": "Regional and income disparities in treatment and drug adherence of patients with dyslipidemia: a retrospective cohort study in South Korea, 2003-2015",
+  "journal": "BMC Geriatr",
+  "year": 2021,
+  "vol": "21",
+  "issue": "1",
+  "pages": "585",
+  "doi": "10.1186/s12877-021-02510-5",
+  "pmid": "34674649"
+ },
+ "kodama2007effect": {
+  "type": "journal",
+  "authors": [
+   "Kodama S",
+   "Tanaka S",
+   "Saito K",
+   "Shu M",
+   "Sone Y",
+   "Onitake F",
+   "Suzuki E",
+   "Shimano H",
+   "Yamamoto S",
+   "Kondo K",
+   "Ohashi Y",
+   "Yamada N",
+   "Sone H"
+  ],
+  "title": "Effect of aerobic exercise training on serum levels of high-density lipoprotein cholesterol: a meta-analysis",
+  "journal": "Arch Intern Med",
+  "year": 2007,
+  "vol": "167",
+  "issue": "10",
+  "pages": "999-1008",
+  "doi": "10.1001/archinte.167.10.999",
+  "pmid": "17533202"
+ },
+ "smart2025effect": {
+  "type": "journal",
+  "authors": [
+   "Smart NA",
+   "Downes D",
+   "van der Touw T",
+   "Hada S",
+   "Dieberg G",
+   "Pearson MJ",
+   "Wolden M",
+   "King N",
+   "Goodman SPJ"
+  ],
+  "title": "The Effect of Exercise Training on Blood Lipids: a Systematic Review and Meta-analysis",
+  "journal": "Sports Med",
+  "year": 2025,
+  "vol": "55",
+  "issue": "1",
+  "pages": "67-78",
+  "doi": "10.1007/s40279-024-02115-z",
+  "pmid": "39331324"
+ },
+ "inskip1983methods": {
+  "type": "journal",
+  "authors": [
+   "Inskip H",
+   "Beral V",
+   "Fraser P",
+   "Haskey J"
+  ],
+  "title": "Methods for age-adjustment of rates",
+  "journal": "Stat Med",
+  "year": 1983,
+  "vol": "2",
+  "issue": "4",
+  "pages": "455-466",
+  "doi": "10.1002/sim.4780020404",
+  "pmid": "6672943"
+ },
+ "kang2015korea": {
+  "type": "journal",
+  "authors": [
+   "Kang YW",
+   "Ko YS",
+   "Kim YJ",
+   "Sung KM",
+   "Kim HJ",
+   "Choi HY",
+   "Sung C",
+   "Jeong E"
+  ],
+  "title": "Korea Community Health Survey Data Profiles",
+  "journal": "Osong Public Health Res Perspect",
+  "year": 2015,
+  "vol": "6",
+  "issue": "3",
+  "pages": "211-217",
+  "doi": "10.1016/j.phrp.2015.05.003",
+  "pmid": "26430619"
+ },
+ "riebler2016intuitive": {
+  "type": "journal",
+  "authors": [
+   "Riebler A",
+   "Sørbye SH",
+   "Simpson D",
+   "Rue H"
+  ],
+  "title": "An intuitive Bayesian spatial model for disease mapping that accounts for scaling",
+  "journal": "Stat Methods Med Res",
+  "year": 2016,
+  "vol": "25",
+  "issue": "4",
+  "pages": "1145-1165",
+  "doi": "10.1177/0962280216660421",
+  "pmid": "27566770"
+ },
+ "simpson2017penalising": {
+  "type": "journal",
+  "authors": [
+   "Simpson D",
+   "Rue H",
+   "Riebler A",
+   "Martins TG",
+   "Sørbye SH"
+  ],
+  "title": "Penalising Model Component Complexity: a Principled, Practical Approach to Constructing Priors",
+  "journal": "Stat Sci",
+  "year": 2017,
+  "vol": "32",
+  "issue": "1",
+  "pages": "1-28",
+  "doi": "10.1214/16-sts576"
+ },
+ "rue2009approximate": {
+  "type": "journal",
+  "authors": [
+   "Rue H",
+   "Martino S",
+   "Chopin N"
+  ],
+  "title": "Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations",
+  "journal": "J R Stat Soc Series B Stat Methodol",
+  "year": 2009,
+  "vol": "71",
+  "issue": "2",
+  "pages": "319-392",
+  "doi": "10.1111/j.1467-9868.2008.00700.x"
+ },
+ "knorrheld2000bayesian": {
+  "type": "journal",
+  "authors": [
+   "Knorr-Held L"
+  ],
+  "title": "Bayesian modelling of inseparable space-time variation in disease risk",
+  "journal": "Stat Med",
+  "year": 2000,
+  "vol": "19",
+  "issue": "17-18",
+  "pages": "2555-2567",
+  "doi": "10.1002/1097-0258(20000915/30)19:17/18<2555::aid-sim587>3.0.co;2-#",
+  "pmid": "10960871"
+ },
+ "steegen2016increasing": {
+  "type": "journal",
+  "authors": [
+   "Steegen S",
+   "Tuerlinckx F",
+   "Gelman A",
+   "Vanpaemel W"
+  ],
+  "title": "Increasing transparency through a multiverse analysis",
+  "journal": "Perspect Psychol Sci",
+  "year": 2016,
+  "vol": "11",
+  "issue": "5",
+  "pages": "702-712",
+  "doi": "10.1177/1745691616658637",
+  "pmid": "27694465"
+ },
+ "dupont2022spatial": {
+  "type": "journal",
+  "authors": [
+   "Dupont E",
+   "Wood SN",
+   "Augustin NH"
+  ],
+  "title": "Spatial+: a novel approach to spatial confounding",
+  "journal": "Biometrics",
+  "year": 2022,
+  "vol": "78",
+  "issue": "4",
+  "pages": "1279-1290",
+  "doi": "10.1111/biom.13656",
+  "pmid": "35258102"
+ },
+ "lipsitch2010negative": {
+  "type": "journal",
+  "authors": [
+   "Lipsitch M",
+   "Tchetgen Tchetgen E",
+   "Cohen T"
+  ],
+  "title": "Negative controls: a tool for detecting confounding and bias in observational studies",
+  "journal": "Epidemiology",
+  "year": 2010,
+  "vol": "21",
+  "issue": "3",
+  "pages": "383-388",
+  "doi": "10.1097/EDE.0b013e3181d61eeb",
+  "pmid": "20335814"
+ },
+ "vanderweele2017sensitivity": {
+  "type": "journal",
+  "authors": [
+   "VanderWeele TJ",
+   "Ding P"
+  ],
+  "title": "Sensitivity analysis in observational research: introducing the E-value",
+  "journal": "Ann Intern Med",
+  "year": 2017,
+  "vol": "167",
+  "issue": "4",
+  "pages": "268-274",
+  "doi": "10.7326/M16-2607",
+  "pmid": "28693043"
+ },
+ "bell2015explaining": {
+  "type": "journal",
+  "authors": [
+   "Bell A",
+   "Jones K"
+  ],
+  "title": "Explaining fixed effects: random effects modeling of time-series cross-sectional and panel data",
+  "journal": "Polit Sci Res Methods",
+  "year": 2015,
+  "vol": "3",
+  "issue": "1",
+  "pages": "133-153",
+  "doi": "10.1017/psrm.2014.7"
+ },
+ "morgenstern1995ecologic": {
+  "type": "journal",
+  "authors": [
+   "Morgenstern H"
+  ],
+  "title": "Ecologic studies in epidemiology: concepts, principles, and methods",
+  "journal": "Annu Rev Public Health",
+  "year": 1995,
+  "vol": "16",
+  "issue": "",
+  "pages": "61-81",
+  "doi": "10.1146/annurev.pu.16.050195.000425",
+  "pmid": "7639884"
+ },
+ "vonelm2007strengthening": {
+  "type": "journal",
+  "authors": [
+   "von Elm E",
+   "Altman DG",
+   "Egger M",
+   "Pocock SJ",
+   "Gøtzsche PC",
+   "Vandenbroucke JP"
+  ],
+  "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies",
+  "journal": "Lancet",
+  "year": 2007,
+  "vol": "370",
+  "issue": "9596",
+  "pages": "1453-1457",
+  "doi": "10.1016/S0140-6736(07)61602-X",
+  "pmid": "18064739"
+ },
+ "heidari2016sex": {
+  "type": "journal",
+  "authors": [
+   "Heidari S",
+   "Babor TF",
+   "De Castro P",
+   "Tort S",
+   "Curno M"
+  ],
+  "title": "Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use",
+  "journal": "Res Integr Peer Rev",
+  "year": 2016,
+  "vol": "1",
+  "issue": "",
+  "pages": "2",
+  "doi": "10.1186/s41073-016-0007-6",
+  "pmid": "29451543"
+ },
+ "web:rcore2026": {
+  "type": "web",
+  "authors": "R Core Team",
+  "title": "R: a language and environment for statistical computing. Version 4.6.0. Vienna: R Foundation for Statistical Computing",
+  "url": "https://www.R-project.org/",
+  "year": 2026,
+  "accessed": "November 17, 2026"
+ },
+ "besag1991bayesian": {
+  "type": "journal",
+  "authors": [
+   "Besag J",
+   "York J",
+   "Mollié A"
+  ],
+  "title": "Bayesian image restoration, with two applications in spatial statistics",
+  "journal": "Ann Inst Stat Math",
+  "year": 1991,
+  "vol": "43",
+  "issue": "1",
+  "pages": "1-20",
+  "doi": "10.1007/bf00116466"
+ },
+ "gelman2014understanding": {
+  "type": "journal",
+  "authors": [
+   "Gelman A",
+   "Hwang J",
+   "Vehtari A"
+  ],
+  "title": "Understanding predictive information criteria for Bayesian models",
+  "journal": "Stat Comput",
+  "year": 2014,
+  "vol": "24",
+  "issue": "6",
+  "pages": "997-1016",
+  "doi": "10.1007/s11222-013-9416-2"
+ },
+ "ord1995local": {
+  "type": "journal",
+  "authors": [
+   "Ord JK",
+   "Getis A"
+  ],
+  "title": "Local spatial autocorrelation statistics: distributional issues and an application",
+  "journal": "Geogr Anal",
+  "year": 1995,
+  "vol": "27",
+  "issue": "4",
+  "pages": "286-306",
+  "doi": "10.1111/j.1538-4632.1995.tb00912.x"
+ },
+ "web:mois2026population": {
+  "type": "web",
+  "authors": "Ministry of the Interior and Safety",
+  "title": "Resident registration population by district, sex and 5-year age group, 2011-2024",
+  "url": "https://jumin.mois.go.kr",
+  "year": 2026,
+  "accessed": "November 17, 2026"
+ },
+ "web:yonhap2023screening": {
+  "type": "web",
+  "authors": "Yonhap News Agency",
+  "title": "Dyslipidemia rose 2.4-fold in 5 years; health screening interval should be shortened to 2 years (in Korean). Republished by the Ministry of Health and Welfare Bokjiro portal, October 1, 2023",
+  "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/news/1305603_1114.html",
+  "year": 2023,
+  "accessed": "November 17, 2026"
+ },
+ "web:kosis2026screening": {
+  "type": "web",
+  "authors": "National Health Insurance Service",
+  "title": "National general health screening statistics: examinees with judgement results (DT_35007_N098), suspected disease by type (DT_35007_N103), national examinees and suspected disease by sex and age (DT_35007_N099, DT_35007_N104), and first-stage screening targets and attendees (DT_35007_N001), 2011-2024. Korean Statistical Information Service",
+  "url": "https://kosis.kr",
+  "year": 2026,
+  "accessed": "November 17, 2026"
+ }
+}

@@ -1,0 +1,224 @@
+{
+ "tag": "LIPS",
+ "outcome_column": "ext__lips_cases",
+ "outcome_label_en": "Examinees classified as 'suspected dyslipidaemia' at the first-stage National General Health Screening (not already under treatment; NHIS health screening statistics DT_35007_N103, annual)",
+ "disease_en": "Screen-detected suspected dyslipidaemia (untreated, newly flagged at screening)",
+ "disease_ko": "검진 이상지질혈증 의심(1차 판정 질환의심, 유질환자 제외)",
+ "offset": "ext__lips_examinees",
+ "exclude_years": [],
+ "forced": [
+  "ext__urban_population_share",
+  "ext__physicians_per_1000",
+  "ext__sex_ratio",
+  "ext__fiscal_independence"
+ ],
+ "negative_controls": [
+  "ext__hit_and_run_rate",
+  "ext__traffic_culture_index",
+  "ext__fires_per_10000"
+ ],
+ "offset_E_column": "E_std",
+ "offset_E_file": "LIPS_Estd3s.csv",
+ "offset_E_label": "sex-and-age-standardised expected suspected-dyslipidaemia cases, 2 sexes x 15 age bands (<=19, 20-24 to 80-84, 85+) (national screening rates DT_35007_N104/N099; district examinee age structure approximated from resident population x national uptake, sex totals observed), 2018-2024",
+ "graph": "593-edge contact graph, ST_GRAPH=04_분석/LIPS/graph_593.graph",
+ "sensitivity_only_extra": [
+  "ext__tertiary_educated_share",
+  "ext__unmet_need_rate",
+  "ext__living_alone_elderly"
+ ],
+ "sets": {
+  "S1_narrative_full": [
+   "ext__walking_rate",
+   "ext__moderate_pa_rate",
+   "ext__public_sport_fac_per100k",
+   "ext__village_sport_fac_per100k",
+   "kchs__DT_H_OBE_OBE__SR",
+   "ext__high_risk_drinking",
+   "ext__smoking_rate",
+   "ext__screening_uptake",
+   "ext__im_specialists_per100k",
+   "ext__basic_livelihood_rate"
+  ],
+  "S2_core": [
+   "ext__walking_rate",
+   "ext__public_sport_fac_per100k",
+   "kchs__DT_H_OBE_OBE__SR",
+   "ext__screening_uptake",
+   "ext__im_specialists_per100k",
+   "ext__basic_livelihood_rate"
+  ],
+  "S3_physical_activity": [
+   "ext__walking_rate",
+   "ext__moderate_pa_rate",
+   "ext__public_sport_fac_per100k",
+   "ext__village_sport_fac_per100k"
+  ],
+  "S4_lipid_risk_behaviour": [
+   "kchs__DT_H_OBE_OBE__SR",
+   "ext__high_risk_drinking",
+   "ext__smoking_rate"
+  ],
+  "S5_detection_care": [
+   "ext__screening_uptake",
+   "ext__im_specialists_per100k",
+   "ext__basic_livelihood_rate"
+  ],
+  "S6_risk_detection": [
+   "kchs__DT_H_OBE_OBE__SR",
+   "ext__high_risk_drinking",
+   "ext__smoking_rate",
+   "ext__screening_uptake",
+   "ext__im_specialists_per100k",
+   "ext__basic_livelihood_rate"
+  ]
+ },
+ "transform": {
+  "ext__urban_population_share": "none",
+  "ext__physicians_per_1000": "none",
+  "ext__sex_ratio": "none",
+  "ext__fiscal_independence": "none",
+  "ext__pop80_share": "none",
+  "ext__hit_and_run_rate": "none",
+  "ext__traffic_culture_index": "none",
+  "ext__fires_per_10000": "none",
+  "ext__tertiary_educated_share": "none",
+  "ext__unmet_need_rate": "none",
+  "ext__living_alone_elderly": "none",
+  "ext__walking_rate": "none",
+  "ext__moderate_pa_rate": "none",
+  "ext__public_sport_fac_per100k": "none",
+  "ext__village_sport_fac_per100k": "none",
+  "kchs__DT_H_OBE_OBE__SR": "none",
+  "ext__high_risk_drinking": "none",
+  "ext__smoking_rate": "none",
+  "ext__screening_uptake": "none",
+  "ext__im_specialists_per100k": "none",
+  "ext__basic_livelihood_rate": "none"
+ },
+ "expected_direction": {
+  "ext__walking_rate": "-",
+  "ext__moderate_pa_rate": "-",
+  "ext__public_sport_fac_per100k": "-",
+  "ext__village_sport_fac_per100k": "-",
+  "kchs__DT_H_OBE_OBE__SR": "+",
+  "ext__high_risk_drinking": "+",
+  "ext__smoking_rate": "+",
+  "ext__screening_uptake": "-",
+  "ext__im_specialists_per100k": "-",
+  "ext__basic_livelihood_rate": "+"
+ },
+ "rules": {
+  "likelihood": "forced-only 모형 WAIC 낮은 쪽(Poisson/NB)",
+  "set_choice": "WAIC 최소, 4 이내면 변수 적은 세트",
+  "credible": "95% CrI 1 제외",
+  "vif_drop": 10,
+  "multiverse_specs": 200,
+  "main_model_note": "Principal model = S1_narrative_full (10 district characteristics + 5 forced controls). VIF>10 retained and reported.",
+  "years": [
+   2018,
+   2024
+  ],
+  "windows": {
+   "W1_2018-19": [
+    2018,
+    2019
+   ],
+   "W2_2020-24": [
+    2020,
+    2024
+   ]
+  },
+  "covid_post_from": 2020
+ },
+ "note": "Outcome: examinees judged to have suspected dyslipidemia at the first-stage general health screening (NHIS, KOSIS DT_35007_N103), 229 districts, 2018-2024 (2011-2017 under earlier criteria in the aux version); denominator examinees with judgement results; expected counts standardised for sex and 16 age groups. Covariates: walking, moderate-or-higher physical activity, public and village sports facilities, obesity, high-risk drinking, current smoking, screening uptake, internal medicine specialists, public assistance recipients.",
+ "extra_columns": {
+  "ext__lips_cases": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "lips_cases"
+  ],
+  "ext__lips_examinees": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "lips_examinees"
+  ],
+  "ext__urban_population_share": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "urban_population_share"
+  ],
+  "ext__physicians_per_1000": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "physicians_per_1000"
+  ],
+  "ext__sex_ratio": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "sex_ratio"
+  ],
+  "ext__fiscal_independence": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "fiscal_independence"
+  ],
+  "ext__pop80_share": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "pop80_share"
+  ],
+  "ext__hit_and_run_rate": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "hit_and_run_rate"
+  ],
+  "ext__traffic_culture_index": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "traffic_culture_index"
+  ],
+  "ext__fires_per_10000": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "fires_per_10000"
+  ],
+  "ext__tertiary_educated_share": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "tertiary_educated_share"
+  ],
+  "ext__unmet_need_rate": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "unmet_need_rate"
+  ],
+  "ext__living_alone_elderly": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "living_alone_elderly"
+  ],
+  "ext__walking_rate": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "walking_rate"
+  ],
+  "ext__moderate_pa_rate": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "moderate_pa_rate"
+  ],
+  "ext__public_sport_fac_per100k": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "public_sport_fac_per100k"
+  ],
+  "ext__village_sport_fac_per100k": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "village_sport_fac_per100k"
+  ],
+  "ext__high_risk_drinking": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "high_risk_drinking"
+  ],
+  "ext__smoking_rate": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "smoking_rate"
+  ],
+  "ext__screening_uptake": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "screening_uptake"
+  ],
+  "ext__im_specialists_per100k": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "im_specialists_per100k"
+  ],
+  "ext__basic_livelihood_rate": [
+   "EXT_canonical_pool_LIPS_261116.csv",
+   "basic_livelihood_rate"
+  ]
+ }
+}
